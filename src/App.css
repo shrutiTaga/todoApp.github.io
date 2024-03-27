@@ -1,0 +1,43 @@
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 20px;
+}
+/* .fa-plus,.fa-edit
+{
+    position: absolute;
+    float: inline-end;
+    margin-top: 8px;
+   right: 30px;
+   justify-content: center;
+    
+} */
+.col-md-4{
+    padding: 30px;
+    background-color: rgb(161, 64, 161);
+    width: 100%;
+    
+    color: white;
+}
+input{
+    border-radius: 5px;
+    outline: 0;
+    border: 2px solid rgb(215, 15, 215);
+}
+.list
+{
+    background-color: rgb(127, 53, 127);
+    padding: 10px;
+}
+input{
+   width: 100%;
+}
+.icon
+{
+    float: right;
+    position: relative;
+   bottom: 25px;
+   
+}

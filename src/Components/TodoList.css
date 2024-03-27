@@ -1,0 +1,108 @@
+/* TodoList.css */
+
+body {
+    background-color: rgb(244, 239, 239);
+}
+
+/* Container for the entire todo list */
+.todo-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the todo list */
+.todo-title {
+    font-family: "Roboto Slab", serif;
+    color: #663399;
+    text-align: center;
+}
+
+/* Container for the input field */
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Input field for adding tasks */
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    width: 110%;
+}
+
+/* Plus icon */
+.fa-plus {
+    margin-right: 20px;
+    padding: 15px;
+    border: none;
+    background-color: #663399;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button for adding or editing tasks */
+.add-btn,
+.edit-btn {
+    
+    padding: 10px;
+    border: none;
+    background-color: #663399;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover,
+.edit-btn:hover {
+    background-color: #501f8a;
+}
+
+/* List of tasks */
+.todo-list {
+    font-family: "Roboto", sans-serif;
+    font-size: 25;
+    font-weight: 100;
+    font-style: normal;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Individual task item */
+.todo-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Icon container for edit and delete icons */
+.icon-container {
+    margin-left: auto;
+}
+
+/* Edit and delete icons */
+.edit-icon,
+.delete-icon {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.edit-icon:hover,
+.delete-icon:hover {
+    color: #333;
+}
